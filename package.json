@@ -1,0 +1,21 @@
+{
+  "name": "paytm-bus-ticket",
+  "version": "1.0.0",
+  "description": "this project is created only for knledge purpose, in this project we have to create apis for getting and searching data for ticket basicly we are create ticket booking application based on sitilink.",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm server.js"
+  },
+  "author": "Ghost",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.4.4",
+    "nodemon": "^3.1.4",
+    "validator": "^13.12.0"
+  }
+}
