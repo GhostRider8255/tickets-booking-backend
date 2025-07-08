@@ -17,7 +17,7 @@ const corsOptions = {
   credentials: true,
   methods: ["GET", "POST", "PATCH", "DELETE", "OPTIONS"],
 };
-app.use(cors(corsOptions));
+app.use(cors({ origin: '*' }));
 
 // app.use("/", (req, res, next) => {
 //   res.status(200).json({
